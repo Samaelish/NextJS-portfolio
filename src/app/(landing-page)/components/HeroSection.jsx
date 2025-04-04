@@ -57,9 +57,12 @@ const HeroSection = () => {
         >
           Обо мне
         </Link>
-        <button className='px-8 py-3 rounded-lg border border-gray-600 hover:border-primary-500 font-medium'>
-          Контакты
-        </button>
+        <Link
+          href='https://github.com/Samaelish'
+          className='px-8 py-3 rounded-lg border border-gray-600 hover:border-primary-500 font-medium'
+        >
+          Github
+        </Link>
       </div>
     </div>
   )

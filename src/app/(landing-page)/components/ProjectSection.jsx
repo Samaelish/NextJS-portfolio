@@ -9,7 +9,7 @@ const ProjectSection = () => {
       tags: ['HTML', 'CSS', 'JS', 'BEM'],
       description: 'Сайт-визитка на HTML CSS JS',
       fullDescription: 'Сайт-визитка на HTML CSS JS',
-      image: '/medtest.png',
+      image: '/medtest.jpg',
       techStack: ['HTML', 'CSS', 'JS', 'BEM'],
     },
     {
@@ -18,7 +18,7 @@ const ProjectSection = () => {
       tags: ['NextJS', 'React', 'Tailwind'],
       description: 'Сайт Портфолио.',
       fullDescription: 'Сайт Портфолио.',
-      image: '/portfolio.png',
+      image: '/readmeImg.jpg',
       techStack: ['NextJS', 'React', 'Tailwind', 'PayloadCMS', 'Postgres'],
     },
     {
@@ -27,7 +27,7 @@ const ProjectSection = () => {
       tags: ['HTML', 'CSS', 'JS'],
       description: 'Сайт-визитка на HTML CSS JS.',
       fullDescription: 'Сайт-визитка на HTML CSS JS.',
-      image: '/store.png',
+      image: '/bfg-store.jpg',
       techStack: ['HTML', 'CSS', 'JS'],
     },
     {
