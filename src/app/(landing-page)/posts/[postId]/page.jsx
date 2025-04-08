@@ -14,7 +14,7 @@ const Page = async ({ params }) => {
   })
 
   if (!post) {
-    return <div>Post not found</div>
+    return <div>Страница не найдена</div>
   }
 
   let data = post.docs[0]
