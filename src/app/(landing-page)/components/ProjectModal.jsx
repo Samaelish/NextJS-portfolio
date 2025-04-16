@@ -47,9 +47,14 @@ export default function ProjectModal({ project, onClose, onNext, onPrev }) {
               </ul>
             </div>
           </div>
-          <div className='relative h-64 w-full md:w-1/2'>
+          <a
+            href={project.link}
+            target='_blank' // Remove if internal link
+            rel='noopener noreferrer' // Security best practice for external links
+            className='relative w-full md:w-1/2 h-64 block cursor-pointer'
+          >
             <Image src={project.image} alt={project.title} layout='fill' objectFit='contain' />
-          </div>
+          </a>
           <div className='absolute top-1/2 -translate-y-1/2 flex justify-between w-11/12 max-w-4xl'>
             <button
               onClick={onPrev}

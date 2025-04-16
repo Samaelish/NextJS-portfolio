@@ -11,6 +11,7 @@ const ProjectSection = () => {
       fullDescription: 'Сайт-визитка на HTML CSS JS',
       image: '/medtest.jpg',
       techStack: ['HTML', 'CSS', 'JS', 'BEM'],
+      link: 'https://med-studio-test.vercel.app/',
     },
     {
       id: 2,
@@ -20,6 +21,7 @@ const ProjectSection = () => {
       fullDescription: 'Сайт Портфолио.',
       image: '/readmeImg.jpg',
       techStack: ['NextJS', 'React', 'Tailwind', 'PayloadCMS', 'Postgres'],
+      link: 'https://next-js-portfolio-six-rust.vercel.app',
     },
     {
       id: 3,
@@ -29,6 +31,7 @@ const ProjectSection = () => {
       fullDescription: 'Сайт-визитка на HTML CSS JS.',
       image: '/bfg-store.jpg',
       techStack: ['HTML', 'CSS', 'JS'],
+      link: 'https://store-website.vercel.app/',
     },
     {
       id: 4,
@@ -38,6 +41,7 @@ const ProjectSection = () => {
       fullDescription: 'Приложение "погода онлайн"',
       image: '/weather.png',
       techStack: ['React', 'Openweathermap', 'Axios'],
+      link: 'https://weather-react-new-git-main-samaelishs-projects.vercel.app',
     },
     {
       id: 5,
@@ -48,6 +52,7 @@ const ProjectSection = () => {
         'Приложение, позволяющее смотреть постеры и названия игр, дату выхода, искать игры по запросу на API (fetch) и добавлять их в избранное.',
       image: '/games.jpg',
       techStack: ['Vite', 'React', 'React Router'],
+      link: 'https://react-one-project-psi.vercel.app/',
     },
     {
       id: 6,
@@ -55,8 +60,9 @@ const ProjectSection = () => {
       tags: ['Bootstrap 5', 'HTML'],
       description: 'Сайт Портфолио.',
       fullDescription: 'Сайт Портфолио.',
-      image: '/bootstrap.png',
+      image: '/bootstrap.jpg',
       techStack: ['Bootstrap 5', 'HTML'],
+      link: 'https://portfolio-bootstrap-5.vercel.app',
     },
   ]
 
