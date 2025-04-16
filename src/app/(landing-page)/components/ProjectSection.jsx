@@ -41,12 +41,13 @@ const ProjectSection = () => {
     },
     {
       id: 5,
-      title: 'Список задач',
-      tags: ['TS', 'React'],
-      description: 'Список задач.',
-      fullDescription: 'Список задач.',
-      image: '/todo.png',
-      techStack: ['TS', 'React'],
+      title: 'React Games',
+      tags: ['Vite', 'React', 'React Router'],
+      description: 'Приложение, на React/React Router/Vite/Rawg.io',
+      fullDescription:
+        'Приложение, позволяющее смотреть постеры и названия игр, дату выхода, искать игры по запросу на API (fetch) и добавлять их в избранное.',
+      image: '/games.jpg',
+      techStack: ['Vite', 'React', 'React Router'],
     },
     {
       id: 6,
